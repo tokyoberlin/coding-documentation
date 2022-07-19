@@ -1,0 +1,349 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+
+/* ***** Comment Robin: Das ist die Logik für den Hover. Versuche es eigenständig auf die anderen Slides anzuwenden. ****** */
+
+#logo{ 
+	position:fixed; 
+	top:10px; 
+	left:10px; 
+  width: 10px;
+  height: 10px;
+ 
+} 
+
+
+#mylinkA{
+  visibility: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+
+
+
+
+.DR.png {
+
+  width: 10px;
+  height: 10px; 
+}
+
+
+
+
+#originalimages_hover:hover  #mylinkA  {
+visibility: visible
+
+}
+
+
+#mylinkB{
+  visibility: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+
+
+
+
+#modificationone_hover:hover  #mylinkB  {
+visibility: visible
+
+}
+
+#mylinkC{
+  visibility: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+
+
+
+
+#modificationtwo_hover:hover  #mylinkC  {
+visibility: visible
+
+}
+
+#mylinkD{
+  visibility: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+
+
+
+
+#modificationthree_hover:hover  #mylinkD  {
+visibility: visible
+
+}
+
+#mylinkE{
+  visibility: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+
+
+
+
+#modificationfour_hover:hover  #mylinkE  {
+visibility: visible
+
+}
+
+
+#mylinkF{
+  visibility: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+
+
+
+
+#modificationfive_hover:hover  #mylinkF  {
+visibility: visible
+
+}
+
+
+#mylinkG{
+  visibility: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+
+
+
+
+#modificationsix_hover:hover  #mylinkG  {
+visibility: visible
+
+}
+
+
+
+#mylinkH{
+  visibility: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+
+
+
+
+#modificationseven_hover:hover  #mylinkH  {
+visibility: visible
+
+}
+
+
+#mylinkI{
+  visibility: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+
+
+
+
+#modificationeight_hover:hover  #mylinkI  {
+visibility: visible
+
+}
+
+
+.slide {
+  /* ***** Comment Robin: Hier stellst du die Gesamtweite der Slides ein. Die waren vorher auf 100vw (vw= viewwidth) darum so riesig. ****** */
+
+    width: 40vw;
+    height: 130vh;
+    opacity: 90%;
+  }
+  .wrapper {
+   
+    display: flex;
+    flex-direction: row;
+    width: 500vw;
+    
+  }
+
+  .generalstyle{
+   
+    text-align: center;
+    padding-top: 30px;
+    border-style: dotted;
+
+
+  }
+
+
+
+
+  h1 { 
+    /* ***** Comment Robin: Hier fehlt was, wahrscheinlich wolltest du »center« schreiben dann steht es in der Mitte. Ansonsten aknsnt du elemente Positionieren mit »margin-top: 50px« ****** */
+text-align: c;
+margin-top: 100px;
+writing-mode: vertical-rl;
+/* ***** Comment Robin: Der war leer, darum auskommentiert ****** */
+/* text-orientation: ; */
+top: 40px;
+color: #f0f0f0;
+
+
+
+
+  }
+
+p {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: 'futura', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+  
+}
+
+
+
+  /* ***** Wenn du die Klammer wegmachst wird der Tag dadrunter aktiviert und der zerschiesst dir dein layout ****** */
+
+/* }
+
+img {
+  position: absolute;
+  width: 30%;
+  object-fit: contain;
+  transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+} */
+
+
+
+  .imgWrapper{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;  
+      align-items: center;
+      gap:20px;
+
+  }
+
+  .imagestyle{
+    display: 900px;
+    height: 200px;
+    width: 300px;
+    
+  }
+
+  .imagestyle2{
+
+    height: 400px;
+    width: 200px;
+    object-position: 00px,100px;
+
+    
+  }
+
+
+
+  .one {
+    background: #f0f0f0;
+/*     background-image: url(image4.png);
+    background-size: cover;
+    padding-bottom: 90px; */
+
+
+    /* ***** Comment Robin: Der war leer, darum auskommentiert ****** */
+    /* text */
+    
+  }
+
+  .two {
+  
+    background: #d3d3d3;
+    
+  }
+  .three {
+    background: #f0f0f0;
+  }
+  .four {
+    background: #d3d3d3;
+  }
+
+  .five{
+    background: #f0f0f0;
+  }
+
+
+  .six{
+    background: #d3d3d3;
+  }
+
+
+  .seven{
+    background: #f0f0f0;
+  }
+
+  .eit{
+    background: #d3d3d3;
+  }
+
+  .nine{
+    background: #f0f0f0;
+  }
+
+
+  .floating{
+    float: left;
+    display: inline-block;
+    width: 200px;
+
+}
+
+video {
+  object-fit: cover;
+position: absolute;
+background: fixed;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+}
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
